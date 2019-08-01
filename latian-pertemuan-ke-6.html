@@ -1,0 +1,28 @@
+<script>
+    for(let i = 1; i < 11; i++){
+        document.write('(FOR) bilangan ke-' + i + '<br>');
+    }
+
+    document.write('<br>');
+
+    const arr = [
+        '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21'
+    ];
+
+    arr.forEach(e => {
+        document.write('(FOREACH) bilangan ke-'+ e + '<br>');
+    });
+
+    document.write('<br>');
+
+    const p = '(REPEAT) Bilangan <br>';
+    document.write(p.repeat(10));
+
+    document.write('<br>');
+
+    let m = 27;
+    while (m <= 35) {
+        document.write('(WHILE) Bilangan ke + m + <br>');
+        m++
+    }
+</script>
